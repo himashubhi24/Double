@@ -28,7 +28,7 @@ CHANNEL_TWO = int(os.environ.get("CHANNEL_TWO", "-1001563469846"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "6810248021"))
 
 #Port
-PORT = os.environ.get("PORT", "8092")
+PORT = os.environ.get("PORT", "8093")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://hoodsitegraphics:PnrXiisxj73wI2vl@hoodsite96.kkrhjnb.mongodb.net/?retryWrites=true&w=majority&appName=hoodsite96")
