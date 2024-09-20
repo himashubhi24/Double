@@ -19,16 +19,16 @@ APP_ID = int(os.environ.get("APP_ID", "13296527"))
 API_HASH = os.environ.get("API_HASH", "6ff44fffc149a6dc599a5d2eaeb8873c")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001671129062"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002086919404"))
 
-CHANNEL_ONE = int(os.environ.get("CHANNEL_ONE", "-1002237628808"))
-CHANNEL_TWO = int(os.environ.get("CHANNEL_TWO", "-1002073793218"))
+CHANNEL_ONE = int(os.environ.get("CHANNEL_ONE", "-1002037265821"))
+CHANNEL_TWO = int(os.environ.get("CHANNEL_TWO", "-1001414063611"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6885162066"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6810248021"))
 
 #Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8091")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://bacikov626:bacikov626@cluster0.koqrr3r.mongodb.net/?retryWrites=true&w=majority")
@@ -43,19 +43,19 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1891736799 5274370570").split()):
+    for x in (os.environ.get("ADMINS", "6810248021").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my backup channel @foxylinkk")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
 if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
@@ -64,10 +64,10 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
+USER_REPLY_TEXT = "dont send message me just follow me on here @foxylinkk"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(6810248021)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
