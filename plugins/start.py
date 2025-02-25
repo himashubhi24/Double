@@ -38,7 +38,7 @@ async def start_command(client: Client, message):
                     btn.append(
                           [
                         InlineKeyboardButton(
-                            "🎗 Rᴇǫᴜᴇꜱᴛ Tᴏ Jᴏɪɴ Cʜᴀɴɴᴇʟ 2 🎗", url=client.link_two)
+                            "🎗 Rᴇǫᴜᴇꜱᴛ Tᴏ Jᴏɪɴ Cʜᴀɴɴᴇʟ 2 🎗", url=https://t.me/+qB0vyZj_Th1iZGY1)
                           ]
                     )
             except Exception as e:
@@ -71,7 +71,7 @@ async def start_command(client: Client, message):
                     btn.append(
                           [
                         InlineKeyboardButton(
-                            "🎗 Rᴇǫᴜᴇꜱᴛ Tᴏ Jᴏɪɴ Cʜᴀɴɴᴇʟ 2", url=client.link_one)
+                            "🎗 Rᴇǫᴜᴇꜱᴛ Tᴏ Jᴏɪɴ Cʜᴀɴɴᴇʟ 2", url=https://t.me/+qB0vyZj_Th1iZGY1)
                           ]
                     )
             except Exception as e:
