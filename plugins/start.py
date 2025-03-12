@@ -71,7 +71,7 @@ async def start_command(client: Client, message):
                     btn.append(
                           [
                         InlineKeyboardButton(
-                            "🎗 Rᴇǫᴜᴇꜱᴛ Tᴏ Jᴏɪɴ Cʜᴀɴɴᴇʟ 2", url=https://t.me/+qB0vyZj_Th1iZGY1)
+                            "🎗 Rᴇǫᴜᴇꜱᴛ Tᴏ Jᴏɪɴ Cʜᴀɴɴᴇʟ 2", url=t.me/foxykinkk)
                           ]
                     )
             except Exception as e:
